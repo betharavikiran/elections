@@ -1,0 +1,9 @@
+node_modules
+settings-demo.json
+settings-staging.json
+settings-production.json
+.vscode
+
+.idea
+.idea/workspace.xml
+.env
