@@ -25,7 +25,7 @@ contract Election {
     uint public candidatesCount;
 
     // Constructor
-    function Election () public {
+    constructor () public {
         addCandidate("Candidate 1");
         addCandidate("Candidate 2");
     }
@@ -45,7 +45,7 @@ contract Election {
         candidates[_candidateId].voteCount ++;
 
         // trigger voted event
-        votedEvent(_candidateId);
+        emit votedEvent(_candidateId);
     }
 
 
