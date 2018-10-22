@@ -7,3 +7,4 @@ settings-production.json
 .idea
 .idea/workspace.xml
 .env
+build
